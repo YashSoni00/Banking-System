@@ -1,0 +1,8 @@
+-- Check Customers table
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Customers';
+
+-- Check Accounts table
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Accounts';
+
+-- Check Transactions table
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Transactions';
